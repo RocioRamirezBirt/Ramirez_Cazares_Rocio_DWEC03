@@ -82,12 +82,7 @@ function validar(usuario,pass){
         console.log('El usuario no está registrado');
         $("#miTextBox").val(`El usuario no esta registrado`).show();
     }
-
 }
-
-
-
-
 
 
 // ------------------- MAIN ------------------------
