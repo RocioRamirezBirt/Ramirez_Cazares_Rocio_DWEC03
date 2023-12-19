@@ -1,0 +1,62 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+/* Custom Properties */
+:root {
+    --negro: #393939;
+    --white: #f2f2f2;
+}
+
+/* Reseteamos los margin y paddings de todas las etiquetas */
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    vertical-align: baseline;
+}
+
+/* Configuramos anclas suaves */
+html {
+    scroll-behavior: smooth;
+  }
+
+body {
+    background-color: var(--negro);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+}
+
+.container{
+    margin-top: 10rem;
+    place-content: center;
+    width: 88%;
+    height: auto;
+    background: url(/game/img/background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+h1 {
+    font-family: 'Permanent Marker', cursive;
+    color: var(--white);
+    text-align: center;
+    margin: 10px 5px;
+}
+
+.articulos {
+    display: flex;
+}
+
+.kekko {
+    flex:1;
+    width: 40%;
+    box-sizing: border-box;
+}
+
+.instrucciones {
+    margin: 15px;
+}
