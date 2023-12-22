@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="scss/main.css" />
+    <title>EL AHORCADO</title>
+</head>
+<body id="body_game">
+    <div class="result">
+        <div class="content">
+            <img src="img/flork-lost.gif" alt="lostgif">
+            <h4>Perdiste!</h4>
+        </div>
+    </div>
+    <div class="container_word">
+        <div id="ahorcado-img">
+            <img src="img/0.png" alt="horca" width="300" height="280">
+        </div>
+        <div class="ahorcado-text">
+            <h1>EL AHORCADO</h1>
+            <ul class="adivinar"></ul>
+            <h4>
+                <span class="marcado">Pista:</span>
+                <p class="pistas"></p>
+            </h4>
+            <div class="teclado"></div>
+            <h4><span>Intentos fallidos:</span><b class="marcado intentos"></b></h4>
+        </div>
+        <input id="again" type="button" name="again" value="Juega otra vez">
+    </div>
+
+
+   <!-------------LAMADA SCRIPTS---------------------->
+   <script type="text/javascript" src="js/jquery_3.5.1.js"></script>
+   <script type="text/javascript" src="js/script_game.js"></script>
+</body>
+</html>

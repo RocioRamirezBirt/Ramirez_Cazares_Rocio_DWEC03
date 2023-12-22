@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="scss/main.css" />
+    <title>EL AHORCADO</title>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>EL AHORCADO</h1>
+        </header>
+        <div class="articulos">
+            <article class="kekko">
+                <img src="img/kekko.png" alt="keko" height="200" width="500">
+            </article>   
+            <article class="instrucciones">
+                <h3>Instrucciones</h3>
+                <div class="bkg">
+                    <p>En el ahorcado tienes que adivinar una palabra letra a letra, y en cada fallo se va añadiendo una porcion del  dibujo de un ahorcado<br><br></p>
+                    <p>Tienes 10 intentos para adivinar, si no lo haces el ahorcado no se salvara<br><br></p>
+                    <p>Tienes pistas para adivinar la palabra pero <b>si las usas te resta intentos</b></p>
+                </div>
+            </article>
+            <div class="login">
+                <form id="loginForm">
+                    <label for="username">Nombre de usuario:<br></label>
+                    <input type="text" id="username" placeholder="username" required/>
+                    <label for="password">Contraseña</label>
+                    <input type="password" id="password" placeholder="contraseña" required />
+                    <button id="btn" type="submit">Entrar</button>
+                </form>
+                <input type="text" id="miTextBox" style="display: none;">
+            </div>   
+        </div>
+    </div>
+    <!-------------LAMADA SCRIPTS---------------------->
+    <script type="text/javascript" src="js/jquery_3.5.1.js"></script>
+    <script type="text/javascript" src="js/script.js"></script>
+</body>
+</html>

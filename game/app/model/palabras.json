@@ -1,0 +1,43 @@
+[   
+   {
+    "palabra":"america",
+    "pista" : "Segundo continente del mundo por extension"
+   },
+   {
+    "palabra":"guitarra",
+    "pista" : "Intrumento musical con cuerdas"
+  },
+  {
+    "palabra":"profundo",
+    "pista" : "Que tiene el fondo muy distante de la boca o el borde de la cavidad."
+  },
+  {
+    "palabra":"estomago",
+    "pista" : "parte ensanchada del aparato digestivo."
+  },
+  {
+    "palabra":"piano",
+    "pista" : "instrumento musical de teclado"
+  },
+  {
+    "palabra":"tortuga",
+    "pista" : "reptil quelonio marino, fluvial o terrestre"
+  },
+  {
+    "palabra":"arena",
+    "pista" : "Sedimento incoherente constituido por fragmentos minerales"
+  },
+  {
+    "palabra":"escultor",
+    "pista": "Persona que se dedica a la escultura."
+  },
+  {
+    "palabra":"nicotina",
+    "pista": "Alcaloide tóxico del tabaco, que provoca hipertensión arterial"
+  },
+  {
+    "palabra":"llavero",
+    "pista": "Utensilio, generalmente una anilla metálica o una cartera pequeña, en que se llevan las llaves"
+  }
+
+]
